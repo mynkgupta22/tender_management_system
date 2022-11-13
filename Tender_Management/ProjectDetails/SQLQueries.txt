@@ -1,0 +1,28 @@
+
+insert into users values(?,?,?,?,?,?)
+
+Select * from users where role=false
+
+insert into tenders values(?,?,?,?)
+
+Select * from tenders
+
+Select * from biding where tender_id = ?
+
+update biding set isAssigned = true where biding_id=?
+
+select password from users where email=? AND phone = ?
+
+select tenders.tender_name,tenders.start_date,tenders.last_date,biding.vendor_email,biding.isAssigned from tenders Inner Join biding\n"
+					+ "On tenders.tender_id = biding.tender_id where tenders.tender_id=?
+					
+					
+
+Select * from tenders where CURDATE()<=last_date
+
+insert into biding(biding_time,tender_id,bid_amount,vendor_email) values(now(),?,?,?)
+
+Select * from biding where vendor_email= ?
+
+Select isAssigned from biding where tender_id= ?
+

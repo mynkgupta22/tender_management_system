@@ -1,0 +1,30 @@
+
+Login method
+
+forgot password method
+
+
+Admin functionality
+
+
+1. Register new Vendor                
+2. Register new Admin                
+3. View all the vendors             
+4. Create new tenders              
+5. View all the Tenders              
+6. View All the Bids of a tender  
+7. Assign tender to a vendor         
+8. See all biding details of a tender 
+9. Back                               
+10. LogOut/Exit  
+
+
+Vendor functionality
+
+1. View all the current Tenders  
+2. Place a Bid against a Tender  
+3. View status of a Bid        
+4. View Bid History             
+9. Back                               
+10. LogOut/Exit 
+		  

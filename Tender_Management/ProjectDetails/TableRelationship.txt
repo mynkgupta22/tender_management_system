@@ -1,0 +1,50 @@
+Table Users :
+=============
+
+desc users;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| email    | varchar(20) | NO   | PRI | NULL    |       |
+| password | varchar(20) | YES  |     | NULL    |       |
+| username | varchar(20) | NO   | UNI | NULL    |       |
+| name     | varchar(20) | YES  |     | NULL    |       |
+| role     | tinyint(1)  | YES  |     | NULL    |       |
+| phone    | varchar(10) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+
+
+Table Tenders:
+===============
+
+ desc tenders;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| tender_id   | int         | NO   | PRI | NULL    |       |
+| start_date  | date        | YES  |     | NULL    |       |
+| last_Date   | date        | YES  |     | NULL    |       |
+| tender_name | varchar(25) | NO   | UNI | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+
+Table Biding:
+=============
+
+desc biding;
++--------------+-------------+------+-----+---------+----------------+
+| Field        | Type        | Null | Key | Default | Extra          |
++--------------+-------------+------+-----+---------+----------------+
+| biding_id    | int         | NO   | PRI | NULL    | auto_increment |
+| biding_time  | datetime    | YES  |     | NULL    |                |
+| tender_id    | int         | NO   | MUL | NULL    |                |
+| bid_amount   | double      | YES  |     | NULL    |                |
+| vendor_email | varchar(25) | NO   | UNI | NULL    |                |
+| isAssigned   | tinyint(1)  | YES  |     | NULL    |                |
++--------------+-------------+------+-----+---------+----------------+
+
+
+================================================================================
+
+
+Users and Biding has one to many relationship.
+Tenders and Biding has one to many relationship.
