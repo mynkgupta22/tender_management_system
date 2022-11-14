@@ -58,8 +58,11 @@ Login method
 
 forgot password method
 
+![WorkFlow](https://github.com/mynkgupta22/flat-railway-695/blob/b2990ec4d18f2492ce6b713c6857a294a87c07f8/Tender_Management/ProjectDetails/images/Screenshot%202022-11-14%20at%203.27.02%20PM.png)
 
 Admin functionality
+![WorkFlow](https://github.com/mynkgupta22/flat-railway-695/blob/b2990ec4d18f2492ce6b713c6857a294a87c07f8/Tender_Management/ProjectDetails/images/Screenshot%202022-11-14%20at%203.30.54%20PM.png)
+![WorkFlow](https://github.com/mynkgupta22/flat-railway-695/blob/b2990ec4d18f2492ce6b713c6857a294a87c07f8/Tender_Management/ProjectDetails/images/Screenshot%202022-11-14%20at%203.32.06%20PM.png)
 
 
 1. Register new Vendor                
@@ -75,6 +78,8 @@ Admin functionality
 
 
 Vendor functionality
+![WorkFlow](https://github.com/mynkgupta22/flat-railway-695/blob/b2990ec4d18f2492ce6b713c6857a294a87c07f8/Tender_Management/ProjectDetails/images/Screenshot%202022-11-14%20at%203.29.14%20PM.png)
+![WorkFlow](https://github.com/mynkgupta22/flat-railway-695/blob/b2990ec4d18f2492ce6b713c6857a294a87c07f8/Tender_Management/ProjectDetails/images/Screenshot%202022-11-14%20at%203.29.35%20PM.png)
 
 1. View all the current Tenders  
 2. Place a Bid against a Tender  
