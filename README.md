@@ -47,7 +47,7 @@ Whenever a company requires a service / merchandise , a tender is floated. Compa
 ## **ER Diagram**
 Users and Biding has one to many relationship.<br>
 Tenders and Biding has one to many relationship.
-![Er diagram](https://github.com/mynkgupta22/flat-railway-695/blob/fc0d89f5e486b3a73fdd7079ab0d1afdbbdfb797/Tender_Management/ProjectDetails/images/E-R%20Diagram.jpg)
+![Er diagram](https://github.com/mynkgupta22/flat-railway-695/blob/d9c509d6ab3352a4ec7d2d643c1cfa36636c7319/Tender_Management/ProjectDetails/images/Screenshot%202022-11-14%20at%206.59.16%20PM.png)
 
 ## WorkFlow
 ![WorkFlow](https://github.com/mynkgupta22/flat-railway-695/blob/fc0d89f5e486b3a73fdd7079ab0d1afdbbdfb797/Tender_Management/ProjectDetails/images/nXBidder-Page-1.jpg)
